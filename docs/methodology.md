@@ -156,10 +156,11 @@ For each outcome, a time-to-event variable was computed:
 - If `event = 1`:
 
   `t = event_date − index_date`
+
 - If `event = 0`:
 
+  `t = censoring_date − index_date`
 
-  
 Time was expressed in **years**.
 
 ---

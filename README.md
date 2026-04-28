@@ -52,5 +52,6 @@ while properly accounting for right-censored observations.
 - Redefinition of modelable outcomes
 - Transition to predictive modeling once data constraints are resolved
 
-## Privacy Notice
-This repository does not include raw data, patient records, SQL queries, or proprietary database schemas. All descriptions are abstracted to preserve patient privacy and institutional confidentiality.
+## Privacy & Confidentiality
+
+This repository contains methodology, structural decisions, and abstracted findings only. It does not include raw data, patient records, SQL queries, table schemas, or any information that could identify the source institution. The work was conducted under verbal agreement with the partnering clinic and shared publicly with Dr. Mejía's awareness. All descriptions have been deliberately abstracted to preserve patient privacy and institutional confidentiality.

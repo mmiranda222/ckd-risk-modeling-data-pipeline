@@ -11,8 +11,18 @@ The project identified key structural limitations, including data sparsity and t
 
 ## Methodology Overview
 ![Clinical Pipeline](figures/pipeline.png)
+This pipeline summarizes the transformation of raw clinical data into a modeling-ready dataset. 
+It includes cohort construction, outcome definition, temporal structuring, and validation steps 
+required for time-to-event analysis.
 
 👉 Full methodology available [here](docs/methodology.md)
+
+### Temporal Framework
+![Temporal Framework](figures/temporal_framework.png)
+
+Each patient’s observation begins at the index date and ends either at the occurrence of the event 
+or at the censoring date. This structure enables the calculation of time-to-event variables 
+while properly accounting for right-censored observations.
 
 ## Key Findings
 - A significant proportion of events occurred at the same time as the index date (t = 0), indicating temporal misalignment.

@@ -9,7 +9,9 @@ The focus was placed on cohort construction, outcome definition, and temporal mo
 
 The project identified key structural limitations, including data sparsity and temporal inconsistencies, which prevented reliable predictive modeling at this stage.
 
-## Methodology
+## Methodology Overview
+![Clinical Pipeline](figures/pipeline.png)
+
 👉 Full methodology available [here](docs/methodology.md)
 
 ## Key Findings

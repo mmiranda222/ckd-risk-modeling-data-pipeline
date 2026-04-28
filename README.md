@@ -1,13 +1,17 @@
 # ckd-risk-modeling-data-pipeline
 Clinical data pipeline for CKD risk prediction, focused on cohort construction, outcome validation, and temporal modeling readiness.
+
 # CKD Risk Modeling Data Pipeline
 
+Clinical data pipeline for chronic kidney disease (CKD) risk prediction, focused on cohort construction, outcome validation, and temporal modeling readiness.
+
 ## Overview
-This project involved constructing a patient-level analytical dataset for chronic kidney disease risk prediction using real-world clinical data.
 
-The focus was placed on cohort construction, outcome definition, and temporal modeling readiness, rather than premature model development.
+This was an independent project with a Colombian nephrology clinic. As the sole analyst on the technical work, I extracted data from the clinic's undocumented SQL database (~5M rows across multiple sources), built the cohort construction logic, defined the temporal framework, and produced the methodology and validation documented here. The clinical scope was defined collaboratively with Dr. Carlos Hernán Mejía (nephrologist).
 
-The project identified key structural limitations, including data sparsity and temporal inconsistencies, which prevented reliable predictive modeling at this stage.
+The objective was a patient-level analytical dataset capable of supporting predictive modeling for CKD progression and related outcomes across 1-, 3-, and 5-year horizons.
+
+Rather than fit a model on insufficient or temporally compromised outcome data, the project was deliberately halted at the data architecture stage. The decision prioritized clinical validity over a deliverable — a misleading risk model in a clinical setting causes more harm than no model at all. This repository documents the engineering work and the methodological reasoning behind that decision.
 
 ## Methodology Overview
 ![Clinical Pipeline](figures/pipeline.png)
